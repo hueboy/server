@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Application responsible for calculating latencies",
+  "main": "server.js",
+  "dependencies": {
+    "json2csv": "^3.7.3",
+    "mongoose": "^4.7.8",
+    "mqtt": "^2.3.0",
+    "shelljs": "^0.7.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Kona",
+  "license": "MIT"
+}
